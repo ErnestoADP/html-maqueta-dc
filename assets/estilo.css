@@ -1,0 +1,147 @@
+body {
+    /*para ver el tipo de letra*/
+    font-family: 'Open Sans', sans-serif;
+    background: #092756;
+    background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -moz-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -moz-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+    background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -webkit-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -webkit-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+    background: -o-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -o-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -o-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+    background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -ms-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -ms-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+    background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), linear-gradient(to bottom, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), linear-gradient(135deg, #670d10 0%, #092756 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#3E1D6D', endColorstr='#092756', GradientType=1);
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    background: rgba(251, 255, 3, 0.734);
+}
+
+#ulNav {
+    margin: 0%;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+li {
+    color: black;
+    margin: 0PX 10px;
+    border-color: unset;
+}
+
+.titulo-inicial,
+.titulo-secundario {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.87);
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    margin-left: 26%;
+}
+
+.img-head {
+    margin: 0;
+    background-image: url("https://www.zonanegativa.com/imagenes/2017/07/the_justice_league_of_america_master.jpg");
+}
+
+.card {
+    width: 200px;
+    height: 245px;
+    background: rgba(255, 255, 255, 0.626);
+    border: 2px solid rgb(251, 235, 8);
+    margin: 40px;
+}
+
+.img-card {
+    margin: 0;
+    width: 200px;
+    height: 105px;
+}
+
+.title-card,
+.btn {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 5px;
+    background-color: rgba(235, 247, 11, 0.864);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.div-boss {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor {
+    width: 500px;
+    height: 245px;
+    margin: 40px;
+    border: 2px solid rgb(251, 235, 8);
+    box-shadow: 10px 10px;
+}
+
+.contenedorsecundario {
+    width: 500px;
+    height: 245px;
+    margin: 40px;
+    color: white;
+    border: 2px solid rgb(251, 235, 8);
+    box-shadow: 10px 10px black;
+}
+
+.imginfo {
+    width: 500px;
+    height: 245px;
+    margin: 0;
+}
+
+.text {
+    padding: 15px;
+    margin: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    background: rgba(251, 255, 3, 0.734);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 20%;
+    height: 80%;
+    margin: 40px;
+}
+
+.img-footer {
+    margin: 0;
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(251, 235, 8);
+    box-shadow: 10px 10px black;
+}
+
+.ulfooter {
+    padding: 0%;
+    list-style: none;
+}
+
+.lifooter {
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+}
